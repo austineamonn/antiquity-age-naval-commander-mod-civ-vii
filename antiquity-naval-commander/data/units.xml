@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Delete Type="UNIT_FLEET_COMMANDER"/>
+		<Row Type="UNIT_FLEET_COMMANDER" Kind="KIND_UNIT"/>
+	</Types>
+	<Units>
+		<Delete UnitType="UNIT_FLEET_COMMANDER"/>
+		<Row UnitType="UNIT_FLEET_COMMANDER" Name="LOC_UNIT_FLEET_COMMANDER_NAME" Description="LOC_UNIT_FLEET_COMMANDER_DESCRIPTION" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_NAVAL" Domain="DOMAIN_SEA" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="240" CanEarnExperience="true" PromotionClass="PROMOTION_CLASS_NAVAL_COMMANDER"/>
+	</Units>
+	<Unit_Stats>
+		<Delete UnitType="UNIT_FLEET_COMMANDER"/>
+		<Row UnitType="UNIT_FLEET_COMMANDER"/>
+	</Unit_Stats>
+	<Unit_Costs>
+		<Delete UnitType="UNIT_FLEET_COMMANDER"/>
+		<Row UnitType="UNIT_FLEET_COMMANDER" YieldType="YIELD_PRODUCTION" Cost="120"/>
+	</Unit_Costs>
+	<Unit_TransitionRetains>
+		<Delete UnitType="UNIT_FLEET_COMMANDER"/>
+		<Row UnitType="UNIT_FLEET_COMMANDER"/>
+	</Unit_TransitionRetains>
+	<TypeTags>
+		<Delete Type="UNIT_FLEET_COMMANDER"/>
+		<Row Type="UNIT_FLEET_COMMANDER" Tag="UNIT_CLASS_COMMAND"/>
+		<Row Type="UNIT_FLEET_COMMANDER" Tag="UNIT_CLASS_FLEET_COMMANDER"/>
+		<Row Type="UNIT_FLEET_COMMANDER" Tag="UNIT_CLASS_NAVAL"/>
+		<Row Type="UNIT_FLEET_COMMANDER" Tag="AGELESS"/>
+	</TypeTags>
+</Database>

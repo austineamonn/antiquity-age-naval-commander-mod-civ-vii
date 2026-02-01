@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="antiquity-naval-commander" version="1.0"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_ANTIQUITY_NAVAL_COMMANDER_NAME</Name>
+		<Description>LOC_MODULE_ANTIQUITY_NAVAL_COMMANDER_DESCRIPTION</Description>
+		<Authors>austineamonn</Authors>
+		<Package>DLC</Package>
+		<AffectsSavedGames>1</AffectsSavedGames>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<References>
+		<Mod id="pirate-republic" title="LOC_MODULE_PIRATE_REPUBLIC_NAME"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="pirate-republic-enable" all="true">
+            <ModInUse>pirate-republic</ModInUse>
+        </Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-pirate-republic" scope="game" criteria="pirate-republic-enable">
+			<Actions>
+                <UpdateDatabase>
+					<Item>data/progression-trees-tech-pirate-republic.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-antiquity-naval-commander" scope="game" criteria="antiquity-age-current">
+            <Actions>
+                <UpdateDatabase>
+					<Item>data/progression-trees-tech-aq.xml</Item>
+					<Item>data/units.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+		<ActionGroup id="base-antiquity-naval-commander" scope="game" criteria="exploration-age-current">
+            <Actions>
+                <UpdateDatabase>
+					<Item>data/progression-trees-tech-ex.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

@@ -6,7 +6,7 @@ Version: Beta
 
 ## Current Mod:
 
-N/A
+Adds naval commanders to antiquity. Naval commanders are unlocked at Navigation. Naval commanders can be built at the start of exploration without needing to research Astronomy.
 
 ## Latest Update:
 

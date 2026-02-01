@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<!-- Delete Unlock in Exploration -->
+		<Delete ProgressionTreeNodeType="NODE_TECH_EX_ASTRONOMY" TargetKind="KIND_UNIT" TargetType="UNIT_BUCCANEER" UnlockDepth="1" RequiredTraitType="TRAIT_PIRATE_REPUBLIC"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>

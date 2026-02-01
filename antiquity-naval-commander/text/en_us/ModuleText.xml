@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_ANTIQUITY_NAVAL_COMMANDER_NAME">
+			<Text>Antiquity Naval Commander</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_ANTIQUITY_NAVAL_COMMANDER_DESCRIPTION">
+			<Text>Adds naval commanders to antiquity, unlocked at Navigation.</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_NAVIGATION" TargetKind="KIND_UNIT" TargetType="UNIT_FLEET_COMMANDER" UnlockDepth="1"/>
+	</ProgressionTreeNodeUnlocks>
+</Database>
