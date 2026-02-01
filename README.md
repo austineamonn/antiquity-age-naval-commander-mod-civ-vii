@@ -10,4 +10,4 @@ Adds naval commanders to antiquity. Naval commanders are unlocked at Navigation.
 
 ## Latest Update:
 
-Added naval commander.
+Added steam icons.
