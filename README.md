@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version: Beta
+Version: 1.0
 
 ## Current Mod:
 
@@ -10,4 +10,4 @@ Adds naval commanders to antiquity. Naval commanders are unlocked at Navigation.
 
 ## Latest Update:
 
-Added README file.
+Added naval commander.
